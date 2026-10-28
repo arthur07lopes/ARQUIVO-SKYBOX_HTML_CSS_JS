@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#090B10">
+    <title>ARQUIVO SKYBOX | Registro de Acesso</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="skybox.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Pular para o conteúdo principal</a>
+    <header class="site-header">
+        <p class="brand">ARQUIVO <span>SKYBOX</span></p>
+        <p class="system-status">SISTEMA DE REGISTRO / 02</p>
+    </header>
+    <main class="layout" id="main">
+        <section class="dossier-panel" aria-labelledby="page-title">
+            <p class="eyebrow">DOCUMENTO RESTRITO / LEITURA LOCAL</p>
+            <h1 id="page-title">O registro não deveria estar aqui</h1>
+            <p class="intro">
+                Este site revela ou oculta um texto quando você ativa o botão.
+                Não há flashes, sons automáticos nem contagem regressiva.
+            </p>
+            <button
+            class="toggle-button"
+            id="toggle-button"
+            type="button"
+            aria-expanded="false"
+            aria-controls="archive-content">
+            <span class="button-code" aria-hidden="true">[ ARQ-07 ]</span>
+            <span id="toggle-label">REVELAR REGISTRO</span>
+            </button>
+            <p class="keyboard-hint">
+                Teclado: use Tab para chegar ao botão e Enter ou Espaço para revelá-lo.
+            </p>
+            <section class="archive-record"
+                id="archive-content" aria-labelledby="record-title" hidden>
+                <p class="record-status">STATUS: LEITURA AUTORIZADA</p>
+                <h2 id="record-title">REGISTRO 07B / A JANELA</h2>
+                <p>
+                    A equipe encontrou uma janela onde deveria existir apenas uma parede.
+                    Do outro lado, o céu parecia familiar, mas as nuvens não se moviam.
+                </p>
+                <blockquote>
+                    "Não abra a janela para confirmar o que está vendo. Primeiro,
+                    confirme que a sala continua atrás de você."
+                </blockquote>
+                <p>
+                    O arquivo foi preservado como exemplo de narrativa original para este
+                    projeto educativo. Este texto não faz parte da história oficial do mod.
+                </p>
+            </section>
+        </section>
+        <figure class="evidence-figure">
+            <p class="image-label">EVIDÊNCIA VISUAL / FONTE EXTERNA</p>
+            <img src="https://media.forgecdn.net/attachments/1692/643/screenshot-2026-05-21-214931-png.png"
+            alt="Captura real de Beyond The SkyBox: grande salão de Minecraft,
+            com paredes azul-escuras, pilares claros e construções ao fundo."
+            width="1024"
+            height="576"
+            loading="lazy"
+            decoding="async">
+            <figcaption>
+                Captura publicada na galeria do mod <em>Beyond the Skybox</em> no CurseForge.
+                <a href="https://www.curseforge.com/minecraft/mc-mods/beyond-the-skybox/gallery">
+                    Abrir a galeria oficial.
+                </a>
+            </figcaption>
+        </figure>
+    </main>
+    <footer class="site-footer">
+        <p>Projeto educativo independente. Não é uma página oficial do mod.</p>
+        <p>Imagem externa: se a hospedagem mudar, a fotografia poderá deixar de aparecer</p>
+    </footer>
+</body>
+</html>
